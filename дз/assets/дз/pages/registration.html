@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хабр</title>
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<header class="header">
+    <h1>Хабр</h1>
+</header>
+<body class="body">
+    <div class="registration">
+        <h2>Регистрация</h2>
+        <form class="registration-form" id="registration-form">
+            <div class="data">
+                <p>Email</p>
+                <input id="Email" class="text-field__input" type="email" required>
+            </div>
+            <div class="data">
+                <p>Никнейм</p>
+                <input id="username" class="text-field__input" type="text" required>
+            </div>
+            <div class="data">
+                <p>Пароль</p>
+                <input id="password" class="text-field__input" type="password" required>
+            </div>
+            <div class="data">
+                <p>Пароль ещё раз</p>
+                <input id="confirmPassword" class="text-field__input" type="password">
+            </div>
+            <p><button class="button" type="submit">Регистрация</button></p>
+        </form>
+    </div>
+    <div class="reg-footer">
+        <p>Уже зарегистрированы?
+            <a class="reg-footer__click" href="../pages/authorization.html">Войдите</a>
+        </p>
+    </div>
+    <script src="../scripts/scripts.js"></script>
+</body>
+</html>
